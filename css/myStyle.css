@@ -208,11 +208,15 @@ margin: 0;
             margin: auto;
             margin-top: 125px;
             width: 500px;
-            height: 300px;
+            height: 200px;
             }
 
             .contactPage .h1 {
             padding-top: 75px;
+            }
+
+            .portfolio {
+            margin-top: 100px;
             }
 
             .portfolio img {
@@ -493,7 +497,12 @@ margin: 0;
    }
 
    .portfolio {
-    margin-top: -50px;
+    margin-top: 50px;
+    font-size: 12px;
+   }
+
+   .portfolio img {
+    width: 50px;
    }
 
 /* food */

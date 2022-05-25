@@ -340,8 +340,20 @@ margin: 0;
 @media (max-width: 376px) {
 
 /* Main Page */
+    .frontPage {
+    background-image: url(../image/frontPageImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
     .frontPage h2 {
     font-size: 45px;
+    }
+
+    .homePage {
+    background-image: url(../image/backgroundImage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
     .hompage-content .header1 {
@@ -363,6 +375,13 @@ margin: 0;
     }
 
 /* About Page */
+
+    .aboutPage  {
+    background-image: url(../image/aboutPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
    .aboutPage-content {
    padding-top: 25px;
    }
@@ -381,12 +400,24 @@ margin: 0;
     width: 320px;
    }
 
+   .aboutPage .small {
+    margin-left: 0px;
+    margin-right: 40px;
+   }
+
    .aboutPage img {
     width: 30px;
     margin-right: 2px;
    }
 
 /* Beach */
+
+    .beachPage  {
+    background-image: url(../image/beachpagebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
    .beachPage .col-sm-6 {
     padding-left: 5px;
     padding-right: 20px;
@@ -404,16 +435,25 @@ margin: 0;
     width: 350px;
     height: 25px;
     margin-left: 15px;
-    padding-right: 10px;
+    padding-right: 20px;
    }
    .beachPage i {
     font-size: 12px;
    }
 
    .beachPage .btn {
-    width: 100px;
+    margin-top: 10px;
+    width: 75px;
     height: 25px;
     font-size: 10px;
+   }
+
+   .beachPage .carousel-control-prev  {
+    margin-left: -15px;
+   }
+
+   .beachPage .carousel-control-next {
+    margin-right: -15px;
    }
 
    .beachPage .modal {
@@ -443,6 +483,13 @@ margin: 0;
    }
 
 /* food */
+
+    .foodPage  {
+    background-image: url(../image/foodpagebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
    .foodPage .col-sm-6 {
     padding-left: 5px;
     padding-right: 20px;
@@ -472,6 +519,11 @@ margin: 0;
     margin-left: 10px;
    }
 
+   .foodPage .carousel-control-prev , .carousel-control-next {
+    margin-left: -20px;
+    margin-right: -10px;
+   }
+
    .foodPage .card-img-top {
     display: none;
    }
@@ -485,6 +537,13 @@ margin: 0;
    }
 
 /* Province Page */
+
+    .provincePage  {
+    background-image: url(../image/province.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
    .provincePage p {
     font-size: 10px;
    }
@@ -512,6 +571,12 @@ margin: 0;
    }
 
 /* Recreational Page */
+
+    .recreationalPage  {
+    background-image: url(../image/recreational.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
    .recreationalPage video {
     width: 150px;
@@ -550,10 +615,11 @@ margin: 0;
    }
 
    .recreationalPage .btn {
-    width: 100px;
+    width: 70px;
     height: 22px;
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 2px;
+    margin-top: 5px;
    }
 
    .recreationalPage .modal {

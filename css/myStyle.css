@@ -156,7 +156,7 @@ margin: 0;
             margin-top: 150px;
             margin-right: 200px;
             color: rgb(236, 242, 224);
-            font-size: 15px;
+            font-size: 18px;
             font-family: 'Lobster', cursive;
             }
 
@@ -179,13 +179,7 @@ margin: 0;
         padding-top: 100px;
         }
 
-        .about-wrapper {
-        margin-left: 200px;
-        width: 1500px;
-        }
-
         .aboutContent {
-        margin-right: 50px;
         width: 550px;
         }
 
@@ -218,12 +212,9 @@ margin: 0;
             height: 300px;
             }
 
-            /* .d-flex div {
-            width: 200px;
-            } */
-
             .portfolio img {
             width: 3%;
+            margin-top: 50px;
             }
 
 /* Food Page */
@@ -347,6 +338,8 @@ margin: 0;
                 }
 
 @media (max-width: 376px) {
+
+/* Main Page */
     .frontPage h2 {
     font-size: 45px;
     }
@@ -369,5 +362,203 @@ margin: 0;
     margin-top: 75px;
     }
 
+/* About Page */
+   .aboutPage-content {
+   padding-top: 25px;
+   }
+
+   .about-wrapper {
+    margin-left: 20px;
+    font-size: 12px;
+    text-align: justify;
+   }
+
+   .aboutContent {
+    width: 325px;
+   }
+
+   .aboutPage video {
+    width: 320px;
+   }
+
+   .aboutPage img {
+    width: 30px;
+    margin-right: 2px;
+   }
+
+/* Beach */
+   .beachPage .col-sm-6 {
+    padding-left: 5px;
+    padding-right: 20px;
+   }
+   .beachPage .h1{
+    font-size: 25px;    
+   }
+
+   .beachPage .left-content {
+    font-size: 11px;
+    text-align: justify;
+   }
+
+   .beachPage .review-div {
+    width: 350px;
+    height: 25px;
+    margin-left: 15px;
+    padding-right: 10px;
+   }
+   .beachPage i {
+    font-size: 12px;
+   }
+
+   .beachPage .btn {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+   }
+
+   .beachPage .modal {
+    font-size: 10px;
+   }
+
+/* Contact Us */
+
+   .contactPage .h1 {
+    font-size: 25px;
+   }
+
+   .contactPage p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 20px;
+   }
+
+   .contactPage .contact {
+    font-size: 12px;
+    width: 300px;
+   }
+
+   .contactPage img {
+    width: 50px;
+    margin-top: 1px;
+   }
+
+/* food */
+   .foodPage .col-sm-6 {
+    padding-left: 5px;
+    padding-right: 20px;
+   }
+
+   .foodPage .h1 {
+    font-size: 25px;
+   }
+
+   .foodPage .left-content {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 15px;
+   }
+
+   .foodPage .foodBlog , .h-5 {
+    font-size: 10px;
+   }
+
+   .foodPage .card-body {
+    height: 85px;
+    margin-right: 10px;
+   }
+
+   .foodPage .carousel {
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .foodPage .card-img-top {
+    display: none;
+   }
+
+   .foodPage .btn {
+    font-size: 8px;
+   }
+
+   .foodPage .modal {
+    font-size: 10px;
+   }
+
+/* Province Page */
+   .provincePage p {
+    font-size: 10px;
+   }
+
+   .provincePage .left-div {
+    margin-top: 0px;
+   }
+
+   .provincePage .bantayog {
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 0px;
+   }
+
+   .provincePage .left-div {
+    margin-left: 10px;
+   }
+
+   .provincePage .right-div {
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: justify;
+   }
+
+/* Recreational Page */
+
+   .recreationalPage video {
+    width: 150px;
+   }
+
+   .recreationalPage .h1 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+   }
+
+   .recreationalPage .description {
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   .recreationalPage .carousel {
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .recreationalPage .carousel-inner {
+    width: 310px;
+   }
+
+   .recreationalPage .carousel-indicators {
+    margin-left: 150px;
+    margin-right: 0px;
+   }
+
+   .recreationalPage button {
+    margin-left: 0px; 
+    margin-right: -170px;
+   }
+
+   .recreationalPage .btn {
+    width: 100px;
+    height: 22px;
+    font-size: 12px;
+    padding-top: 2px;
+   }
+
+   .recreationalPage .modal {
+    font-size: 10px;
+   }
+
+
 }
-    

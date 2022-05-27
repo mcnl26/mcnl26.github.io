@@ -608,6 +608,7 @@ margin: 0;
 
    .recreationalPage video {
     width: 150px;
+    margin-left: 20px;
    }
 
    .recreationalPage .h1 {
@@ -654,6 +655,78 @@ margin: 0;
    .recreationalPage .modal {
     font-size: 10px;
    }
+}
+
+a.nav-link:hover {
+    background-color: rgba(136, 138, 136, 0.623);
+    border-radius: 5%;
+}
+
+button.button-down:hover {
+background-color: aquamarine;
+color: black;
+}
 
 
+@media (max-width: 1025px) {
+
+/* navbar */
+    .navbar {
+    font-size: 15px;
+    margin-left: -90px;
+    margin-right: -90px;
+    }
+
+/* Province */
+    .bantayog {
+    margin-left: -170px;
+    width: 400px;
+    }
+
+    .provincePage .right-div {
+    font-size: 15px;
+    margin-right: 20px;
+    text-align: justify;
+    }
+
+/* about */
+    .aboutPage .aboutContent {
+    padding-left: 5px;
+    text-align: justify;
+    }
+
+    .aboutPage video {
+    /* width: 450px; */
+    margin-right: 10px;
+    }
+
+/* food */
+    /* .foodBlog {
+    margin-left: 10px;
+    }
+
+    .foodBlog .card1 {
+    height: 130px;
+    }
+
+    .foodBlog .card2 {
+    height: 130px;
+    padding-top: 65px;
+    }
+
+    .foodBlog .travel {
+    margin-top: -50px;
+    }
+
+
+    .foodPage .left-content {
+    text-align: justify;
+    } */
+
+/* Recreation */
+
+    .recreationalPage video {
+    width: 40%;
+    }
+    
 }
